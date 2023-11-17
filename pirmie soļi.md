@@ -133,6 +133,40 @@ Ar šo es beidzu šo nodaļu. Nākošajā nodaļā mēs mācīsimies par program
 
 Neaizmirsties izpildīt uzdevumus un atbildēt uz jautājumiem lai nostprinātu to ko mēs šajā nodaļā iemācijāmies
 
+### Komentāri
+
+Programmēšana pastāv tāds jēdziens "komentāri". Komentāri tas ir teksts kodā, kuru programma izlaiž un neizpilda. Komentārus apzīmē, pievienojot simbolus `//`, šādi
+
+```
+//Komentēta rindiņa. Šo rindiņu programma nelasīs
+
+console.log('Viens')
+//console.log('Divi')
+console.log('Trīs')
+```
+
+![](./images/pirmie_soli/pirmie_soli_komentariPNG.PNG)
+
+Programma nelasīs neko pēc `//` pašreizējajā rindiņā (bet lasīs visas nākošas rindiņas)
+
+Ir iespējam komentēt vairākas rindiņas ar simboliem `/*`(atvērt komentāru) un `/*`(aizvērt komentāru). To sauc par **komentāra bloku** piemēram
+
+```
+console.log('Lasīs')
+/*
+Komentēts bloks, šo programma nelasīs
+console.log('Nelasīs')
+console.log('Nelasīs')
+*/
+console.log('Lasīs')
+```
+
+Komentāri ir ļoti lietderīgi. Tos lieto lai aprakstītu ko dotais kods dara, lai citi izstrādāji ātrāk saprastu bez vajadzības lasīt pašu kodu. Vēl komentārus bieži lieto lai uz laiku "atslēgtu" daļu no koda. Tas ir lietderīgi kad programmētājs cenšas salabot **bagu**.
+
+> **Bags** jeb **bug** angliski, ir termins ko programmētāji lieto, lai aprakstītu kad kāda daļa no programmas nestrādā kā vajag vai nestrādā vispār. Vēlviens termins is **debug**, kas nozīme "bagu atrisināšana"
+
+Ir ļoti svarīgi vienmēr komentēt aprakstu par savu kodu. Tas palīdz ātrāk atsvaidzināt atmiņu kad atgriežaties pie projekta pēc vairākām dienām. Mācīšanās laikā tas nav tik aktuāli, takā šīs grāmatas lasīšanas laikā varat komentārus nelietot, bet ņemiet vērā ka profesionālajā vidē un kad strādājiet pie liela projekta, komentēt savu kodu ir ļoti svarīgi.
+
 ## Jautājumi
 
 1.1: Kas ir konsole jeb **console**?
@@ -146,6 +180,26 @@ A: Izvada konsolē tekstu "Pica"
 1.3: Kādā secībā programma izpilda kodu?
 
 A: No augšas uz leju
+
+1.4: Kas ir bags jeb **bug**?
+
+A: Bags tas ir kad kāda daļa no programmas nestrādā kā vajag vai nestrādā vispār
+
+1.5: Kas ir komentāri?
+
+A: Komentāri tās ir koda daļas kuras programma nelasa
+
+1.6: Kam ir lietderīgi komentāri?
+
+A: Komentāri ir lieterīgi ar to, ka:
+
+ * tie palīdz citiem saprast jūsu kodu bez paša koda lasīšanas
+ * tie atsvaidzina jūsu atmiņu kad atgriežaties pie sava koda pēc kāda laika
+ * tie ļauj uz laiku "atslēgt" daļu no koda, kas ir lietderīgi kad cenšaties atrisināt kādu bagu
+
+1.7: Kā apzīmē komentārus?
+
+A: `//` priekš vienas rindiņas komentāra, un `/* */` priekš komentāra bloka
 
 ## Uzdevumi
 
