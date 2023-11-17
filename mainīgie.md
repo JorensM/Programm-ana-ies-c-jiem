@@ -163,7 +163,11 @@ let skaitlis = 1
 console.log(skaitlis) // 1
 skaitlis++
 console.log(skaitlis) // 2 
-
+skaitlis++
+console.log(skaitlis) // 3
+skaitlis--
+console.log(skaitlis) // 2
+```
 
 
 
