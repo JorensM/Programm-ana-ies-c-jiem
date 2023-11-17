@@ -62,8 +62,15 @@ console.log(mans_mainigais)
 
 konsolē vajadzētu tikt izvadītam jūsu mainīgajam.
 
-Varat nomainīt mainīgo pret citu vērtību, piemēram citu skaitli vai kādu tekstu, un konsole atbilstoši izvadīs šo jauno vērtību:
+Iepriekšējajā koda pirmajā rindiņā mēs **deklarējam** un **definējam** mainīgo `mans_mainigais` ar vērtību 5, tad nākošajā rindiņā ar `console.log()` mēs izvadam šo mainīgo uz konsoli.
+
+> **Deklarēt** mainīgo nozīmē izveidot to, un **Definēt** nozīmē pievienot tam vērtību. Ir iespējams deklarēt mainīgo bez definēšanas. Par to nedaudz zemāk.
+
+Varat nomainīt mainīgo pret citu vērtību, piemēram citu skaitli vai kādu tekstu, un konsole atbilstoši izvadīs šo  vērtību:
 
 ```
-let mans_mainigais = "Jaunā vērtība"
+let mans_mainigais = "Cita vērtība"
 console.log(mans_mainigais)
+```
+
+![](./images/mainigie/mainigie_1.PNG)

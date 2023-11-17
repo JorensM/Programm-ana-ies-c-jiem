@@ -131,8 +131,26 @@ console.log('Trešais teksts')
 
 Ar šo es beidzu šo nodaļu. Nākošajā nodaļā mēs mācīsimies par programmas pamatvienību - mainīgo.
 
+Neaizmirsties izpildīt uzdevumus un atbildēt uz jautājumiem lai nostprinātu to ko mēs šajā nodaļā iemācijāmies
 
+## Jautājumi
 
-Šajā grāmatā mēs mācīsimies programmēšanas valodu JavaScript. JavaScript ir iespējams palaist 
+1.1: Kas ir konsole jeb **console**?
 
-### Uzstādīšana
+A: Konsole tas ir rīks ar kuru programma spēj izvadīt tekstu un uzrādīt to uz ekrāna.
+
+1.2: Ko dara funkcija **console.log("Pica")**?
+
+A: Izvada konsolē tekstu "Pica"
+
+1.3: Kādā secībā programma izpilda kodu?
+
+A: No augšas uz leju
+
+## Uzdevumi
+
+1.1: Uzrakstiet programmu, kura izvada konsolē trīs rindiņas ar tekstiem "Viens", "Divi" un "Trīs":
+
+![](./images/uzdevumi/1_1.PNG)
+
+1.2: Saimainiet vietām šīs rindiņas, lai tiktu izvadīts "Trīs", "Divi", "Viens" 
