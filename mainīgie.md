@@ -166,6 +166,14 @@ JavaScript valodā pastāv šādi aritmētikas simboli:
  * \* &nbsp;(reizināšana)
  * \** (kāpināšana)
  * % (modulus jeb dalīšanas atlikums)
+ * () (grupēšana ar iekavām)
+
+Var izteiksmi grupēt ar iekavām, tāpat kā matemātikā:
+
+```
+let vertiba = 2 * (4 + 1)
+console.log(vertiba) // 10
+```
 
 Ir iespējams arī pieletot citu mainīgo aritmētikā, piemēram:
 

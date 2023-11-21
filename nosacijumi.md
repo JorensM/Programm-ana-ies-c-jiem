@@ -125,3 +125,91 @@ if (skaitlis == 15) {
 } else {
     console.log('Skaitlis nav augstāks par 50')
 }
+
+Šajā gadījumā pirmie divi nosacījumi tiks izlaisti jo nav patiesi, bet trešais tiks palaists jo ir patiess, un pēdējais tiks izlaists jo tas tiek palaists tikai ja visi iepriekšējie nav patiesi.
+
+Pamēģiniet nomainīt `skaitlis` uz 15 un palaist kodu. Tad tikai pirmais bloks tiks palaists, jo tā nosacījums būs patiess. Respektīvi, visi pārējie bloki tiks izlaisti.
+
+## Aritmētika
+
+tāpat kā mainīgo definīcijā, arī nosacījumos drīkst lietot aritmētiku.
+
+```
+let skaitlis1 = 2
+let skaitlis2 = 2
+
+if(skaitlis1 + skaitlis2 == 4) {
+    console.log('Skaitļu summa ir 4') // Šis bloks tiks palaists
+} else {
+    console.log('Skaitļu summa nav 4')
+}
+```
+
+## &&
+
+Vienā nosacījumā ir iespējams iekļaut vairākas izteiksmes ar `&&` jeb AND (un) simbolu. Nosacījums būs patiess ja visas izteiksmes kuras lieto `&&` ir patiesas
+
+```
+let skaitlis = 10
+if (skaitlis > 5 && skaitlis < 15) {
+    console.log('Skaitlis ir augstāks par 5 un zemāks par 15') // Šhis bloks tiks palaists
+} else {
+    console.log('Skaitlis nav augstāks par 5 un nav zemāks par 15')
+}
+```
+
+Ja viena no izteiksmēm kura lieto `&&` ir nepatiesa, tad nosacījums ir nepatiess un tiek izlaists. Piemēram
+
+```
+let skaitlis = 10
+if (skaitlis > 5 && skaitlis == 15) {
+    console.log('Skaitlis ir augstāks par 5 un vienāds ar 15') // Netiks palaists
+} else {
+    console.log('Skaitlis nav augstāks par 5 vai nav vienāds 15') //Tiks palaists
+}
+```
+
+Šajā gadījumā nosacījums ir nepatiess, jo viena no `&&` izteiksmēm ir bijusi nepatiesa. Ir iespējams arī ķēdēt šīs izteiksmes ar vairāk nekā vienu `&&`, piemēram:
+
+```
+if ( n > 5 && n < 50 && n != 15)
+```
+
+Šajā gadījumā nosacījums ir patiess ja `n` ir augstāks par 5 UN ir zemāks par 50 un nav vienāds ar 15
+
+> Līdz šim nebijām lietojuši mainīgo kura nosaukums ir tikai viens burts. Šāds nosaukums ir pilnīgi derīgs un to drīkst lietot kā mainīgā nosakumumu. Bet ir rekomendēts mainīgo nosaukumos lietot pilnus vārdus kuri konkrēti raksturo šī mainīgā nozīmi un pielietojumu.
+
+`&&` simbolu var lasīt kā "un", 
+
+```
+if (skaitlis > 5 un skaitlis < 15)
+```
+
+## ||
+
+Pastāv vēlviens simbols `||` jeb OR (vai)
+
+Kad lieto `||` simbolu tad tikai tai izteiksmei kura lieto šo simbolu ir jābūt patiesai, un visas pārējās var būt nepatiesas. Piemēram
+
+```
+let skailtis = 40
+
+if (skaitlis < 20 || skaitlis == 40) {
+    console.log('Skaitlis ir vai nu zemāks par 20 un augstāks par 10, vai nu tas ir vienāds ar 40') // Tiks palaists
+}
+```
+
+Ja mēs izmainītu `skaitlis` vērtību uz 10, tad nosacījums arī būtu patiess, bet ja izmainītu uz vērtību kā piemēram 25 vai 50, tad nosacījums nebūtu patiess
+
+`||` var lasīt kā "vai":
+
+```
+if (skaitlis < 20 un skaitlis > 10 vai skaitlis == 40)
+```
+
+Var lietot gan `&&` gan `||` kopā, piemēram
+
+
+## Noslēgums
+
+Šajā nodaļā
