@@ -167,6 +167,18 @@ Komentāri ir ļoti lietderīgi. Tos lieto lai aprakstītu ko dotais kods dara, 
 
 Ir ļoti svarīgi vienmēr komentēt aprakstu par savu kodu. Tas palīdz ātrāk atsvaidzināt atmiņu kad atgriežaties pie projekta pēc vairākām dienām. Mācīšanās laikā tas nav tik aktuāli, takā šīs grāmatas lasīšanas laikā varat komentārus nelietot, bet ņemiet vērā ka profesionālajā vidē un kad strādājiet pie liela projekta, komentēt savu kodu ir ļoti svarīgi.
 
+## Lasāmība
+
+Programmēšanā pastāv tāds jēdziens kā lasāmība. Lasāmība nosaka to, cik viegli un ātri jūsu kodu ir izlasīt un saprast. Vienu programmu var uzrakstīt daudznedažādos veidos, daži no šiem veidiem padara kodu īsu un vienkāršāku, bet daži otrādi - garu un sarežģītu. Jebkura programmētāja mērķis ir rakstīt tādu kodu kurš ir īss, vienkāršs un viegli saprotams. Tas atvieglo darbu gan nākotnes jums, gan citiem kuri strādā ar šo kodu.
+
+## Noslēgums
+
+Šajā nodaļā mēs esam veikuši mūsu pirmos soļus programmēšanas pamatu apguvē. Iemācijāmies par dažiem bieži lietotiem programmēšanas jēdzieniem un konceptiem, iemācijāmies kā uzstādīt projektu un kā izvadīt vienkāršu tekstu konsolē.
+
+Lai nostiprinātu jauniegūtas zināšanas, varat atbildēt uz jautājumiem un izpildīt uzdevumus.
+
+Nākošajā nodaļā mācīsimies par programmēšanas pamatvienību - mainīgajiem.
+
 ## Jautājumi
 
 1.1: Kas ir konsole jeb **console**?
@@ -201,10 +213,26 @@ A: Komentāri ir lieterīgi ar to, ka:
 
 A: `//` priekš vienas rindiņas komentāra, un `/* */` priekš komentāra bloka
 
+1.8: Vienkāršos vārdos, kas ir koda lasāmība?
+
+A: Koda lasāmība tas ir cik viegli un ātri var izlasīt un saprast kādu noteiktu kodu.
+
 ## Uzdevumi
 
 1.1: Uzrakstiet programmu, kura izvada konsolē trīs rindiņas ar tekstiem "Viens", "Divi" un "Trīs":
 
 ![](./images/uzdevumi/1_1.PNG)
 
-1.2: Saimainiet vietām šīs rindiņas, lai tiktu izvadīts "Trīs", "Divi", "Viens" 
+```
+console.log('Viens')
+console.log('Divi')
+console.log('Trīs')
+```
+
+1.2: Saimainiet vietām šīs rindiņas, lai tiktu izvadīts "Trīs", "Divi", "Viens"
+
+```
+console.log('Trīs')
+console.log('Divi')
+console.log('Viens')
+```

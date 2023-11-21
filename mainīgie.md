@@ -88,6 +88,17 @@ console.log(skaitlis)
 console.log(cits_mainigais)
 ```
 
+## Vērtības maiņa
+
+Ir iespējams nomainīt viena un tā paša mainīgā vērtību pret citu vērtību. Ja mainam jau pastāvoša mainīgā vērtību, tad priekšā nav jāraksta `let`:
+
+```
+let mans_mainigais = 'Vērtība'
+mans_mainigais = 'Jaunā vērtība'
+```
+
+## Mainīgais kā vērtība
+
 Ir iespējams pievienot mainīgajam cita mainigā vērtību, lūk šādi:
 
 ```
@@ -109,7 +120,7 @@ let mans_mainigais
 
 Šādam mainīgajam bez vērtības tehniski tāpat ir vērtība, un šī vērtība ir `undefined`. pastāv arī cita "bezvērtības" vērtība - `null`.
 
-### Vērtību tipi
+## Vērtību tipi
 
 Mainīgo vērtības iedalās vairākos vērtību tipos. Šie tipi ir:
 
@@ -131,20 +142,20 @@ let mainigais = false
 let cits_mainigais = true
 ```
 
-### Mainīgo aritmētika
+## Mainīgo aritmētika
 
 Visspēcīgākā mainīgo iezīme drošivien ir aritmētika. Mainīgajam var pievienot aritmētisku vērtību, piemēram
 
 ```
 let summa = 2 + 2
-console.log(summa)
+console.log(summa) // 4
 ```
 
 vai
 
 ```
 let vertiba = 5 * 20 + 15
-console.log(vertiba)
+console.log(vertiba) // 115
 ```
 
 JavaScript valodā pastāv šādi aritmētikas simboli:
@@ -156,7 +167,24 @@ JavaScript valodā pastāv šādi aritmētikas simboli:
  * \** (kāpināšana)
  * % (modulus jeb dalīšanas atlikums)
 
-Ir iespējams mainīgo paaugstināt vai samazināt par vienu, izmantojot `++` vai `--`, šādi:
+Ir iespējams arī pieletot citu mainīgo aritmētikā, piemēram:
+
+```
+let skaitlis1 = 10
+let skaitlis2 = 40
+let summa = skaitlis1 + skailtis2
+console.log(summa) // 50
+```
+
+Nav obligāti jāizveido mainīgais lai sniegtu argumentu funkcijai, var aritmētisko darbību sniegt "pa taisno"
+
+```
+console.log(15 + 15) // 30
+```
+
+bet vispārīgi runājot ir rekomendēts izveidot mainīgo priekš argumenta, jo tas padara jūsu kodu lasāmāku.
+
+Ir iespējams mainīgo paaugstināt vai samazināt par vienību, izmantojot `++` vai `--`, šādi:
 
 ```
 let skaitlis = 1
@@ -169,9 +197,26 @@ skaitlis--
 console.log(skaitlis) // 2
 ```
 
+Mainīgo aritmētika pārsvarā attiecas uz skaitļiem. Reti kad var pielietot aritmētiku ar citiem tipiem. Iznēmums ir string(teksts), kur var pielietot `+` zīmi lai savienotu vairākus tekstus kopā:
+
+```
+let pirmais_teksts = "Sveika "
+let otrs_teksts = "Pasaule!"
+console.log(pirmais_teksts + otrs_teksts) // Sveika Pasaule!
+```
+
+## Noslēgums
+
+Šajā nodaļā iemācijāmies par programmēšanas pamatvienību - mainīgajiem. Mainīgos ir 100% nepieciešams apgūt jebkuram programmētājam, takā tie tiek ļoti bieži lietoti rakstot kodu.
+
+Iemācijāmies par tādām mainīgo iezīmēm kā deklarēšana un definīcija, aritmētika, vērtību tipiem.
+
+Lai nostiprinātu jūsu jauniegūtās zināšanas, varat atbildēt uz jautājumiem un izpildīt uzdevumus
+
+Nākošajā nodaļā mācīsimies par nosacījumiem un cikliem - veidu kā programmu var daudzveidot.
 
 
-Jautājumi:
+## Jautājumi
 
 2.1: Vienkāršos vārdos, paskaidrojiet kas ir mainīgie?
 
@@ -192,3 +237,41 @@ A: Deklarēt mainīgo nozīme to izveidot, definēt nozīmē pievienot tam vērt
 2.5: Vai drīkst būt mainīgais bez vērtības?
 
 A: Jā(bet tehniski runājot pat bezvērtības mainīgajiem ir vērtība - `undefined`)
+
+2.6: Vai drīkst pievienot kādu mainīgo kā cita mainīgā vērtību?
+
+A: Jā, piemēram `let mans_maingais = cits_mainigais`
+
+2.7: Vai ir iespējams pielietot aritmētiku kad definē mainīgo?
+
+A: Jā, var izmantot vairākus pamataritmētikas darbības, kā saskaitīšanu, atņemšanu, reizināšanu, dalīšanu
+
+2.8: Kā var paaugstināt vai samazināt mainīgo par vienu vienību?
+
+A: Rakstot `mainigais++` vai `mainigais--` respektīvi
+
+2.9: Vai var lietot citus mainīgos kad definē mainīgo ar artimētiku?
+
+A: Jā
+
+## Uzdevumi
+
+1.1: Uzrakstiet programmu, kura izveido mainīgo un pievieno tam vērību 5, tad izvada to konsolē
+
+```
+let mans_mainigais = 5
+console.log(mans_mainigais)
+```
+
+1.2: Uzrakstiet programmu, kura:
+
+1. Izveido divus mainigos un pievieno katram jebkādu skaitlisku vērtību
+2. Izveido vēlvienu mainigo kurš saskaita abus iepriekšējos mainīgos
+3. Izvada jaunā mainīgā vērtību konsolē
+
+```
+let skaitlis1 = 10
+let skaitlis2 = 5
+let summa = 10 + 5
+console.log(summa)
+```

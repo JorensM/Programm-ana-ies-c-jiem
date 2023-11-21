@@ -6,17 +6,17 @@ Esiet sveicināti! Šajā e-grāmatā jūs atradīsiet informāciju par programm
 
 Šī grāmata ir pieemejama tīmekļa formātā vietnē [programmesanaiesacejiem.lv](#), kā arī [PDF formātā](#), ja vēlaties lasīt to bez interneta piekļuves.
 
-### Vai ir vērts mācīties programmēšanu?
-
-Iespējams, jau esat sev jautājis - "Vai ir vērts mācīties programmēšanu?". No personālās izaugsmes un interešu skatapunkta, programmēšanu ir vērts mācīties ja jūs tā aizrauj un jums patīk ar to nodarboties, ko jūs varat noskaidrot, palasot dažas šīs grāmatas nodaļas. No profesionālā skatapunkta(t.i ja jūs vēlaties atrast darbu šajā jomā), programmēšanu ir noteikti vērts apgūt, jo darba izaugsmes iespējas ir plašas un peļņa salīdzinoši augsta. Pietam, ar programmēšanu jums ir iespēja ne tikai strādāt algotu darbu, bet izstrādām pašiem savu programmatūru, kuru pēc tam varat izplatīt un pārdot.
-
-Nu tad ko, sāksim?
+Ja lasīšanas laikā rodas kādi jautājumi vai neskaidrības, droši sūtiet e-pastu uz [programmesacaiesacejiem@gmail.com](mailto:programmesanaiesacejiem@gmail.com)
 
 ## Kas ir programmēšana?
 
 Ja jūs lasāt šo grāmatu, tad jums jau drošivien ir kautkāda nojausma par to, kas ir programmēšana. Vienkāršos vārdos, **programmēšana** ir instrukciju rakstīšana datoram, kuras dators pēc tam izpilda. Šīs instrukcijas sauc par **programmām**. Piemēram, jūs varat uzrakstīt instrukciju datoram lai tas aprēķināta kādu formulu, vai lai tas uzzīmē kādu bildi vai ğeometrisku figūru uz ekrāna. Lielākā daļa programmu ir sarežğītākas par tik vienkāršam instrukcijām kā vienkārši uzzīmēt vienu ğeometrisku figūru - lielākā daļa satur sevī daudz vairāk dažādu instrukciju, bet šajā grāmatā, tākā mēs mācāmies pašus pamatus, mūsu programmas būs ļoti īsas un vienkāršas.
 
-### Programmēšanas valodas
+## Vai ir vērts mācīties programmēšanu?
+
+Iespējams, jau esat sev jautājis - "Vai ir vērts mācīties programmēšanu?". No personālās izaugsmes un interešu skatapunkta, programmēšanu ir vērts mācīties ja jūs tā aizrauj un jums patīk ar to nodarboties, ko jūs varat noskaidrot, palasot dažas šīs grāmatas nodaļas. No profesionālā skatapunkta(t.i ja jūs vēlaties atrast darbu šajā jomā), programmēšanu ir noteikti vērts apgūt, jo darba izaugsmes iespējas ir plašas un peļņa salīdzinoši augsta. Pietam, ar programmēšanu jums ir iespēja ne tikai strādāt algotu darbu, bet izstrādām pašiem savu programmatūru, kuru pēc tam varat izplatīt un pārdot.
+
+## Programmēšanas valodas
 
 Rakstīt programmas var dažādās **programmēšanas valodās**. Katrai programmēšanas valodai ir savi knifi un niances, bet vairāk vai mazāk tās ir vienādas - kad esat apguvis vienu valodu, apgūt turpmākās būs daudz vieglāk. 
 
