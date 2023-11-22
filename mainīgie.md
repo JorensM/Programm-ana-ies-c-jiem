@@ -127,7 +127,11 @@ Mainīgo vērtības iedalās vairākos vērtību tipos. Šie tipi ir:
  * number (skailtis)
  * string (teksts)
  * boolean (patiess/nepatiess)
- * object (objekts)
+ * object (objekts), kurš iedalās kategorijās:
+   * object (objekts)
+   * class (klase)
+   * function (funkcija)
+   * array (masīvs)
  * undefined (bezvērtības)
  * null (bezvērtības)
 
@@ -264,7 +268,7 @@ A: Jā
 
 ## Uzdevumi
 
-1.1: Uzrakstiet programmu, kura izveido mainīgo un pievieno tam vērību 5, tad izvada to konsolē
+1.1: Uzrakstiet programmu, kura izveido mainīgo un definē tam vērību 5, tad izvada to konsolē
 
 ```
 let mans_mainigais = 5
@@ -282,4 +286,16 @@ let skaitlis1 = 10
 let skaitlis2 = 5
 let summa = 10 + 5
 console.log(summa)
+```
+
+1.3: Uzrakstiet programmu, kura:
+
+1. Izveido mainīgo ar vērtību "Man patīk " (ievērojiet atstarpi teksta beigās)
+2. Izveido mainīgo ar vērtību ar tekstu ar kādas lietas nosaukumu, kura jums patīk
+3. Izvada konsolē šo abu mainīgo savienojumu, kai iznāktu "Man patīk \_\_\_" (kur \_\_\_ būtu jūsu izvēlētās lietas nosaukums)
+
+```
+let vards1 = "Man patīk "
+let vards2 = "programmēšana"
+console.log(vards1 + vards2)
 ```

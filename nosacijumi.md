@@ -130,6 +130,42 @@ if (skaitlis == 15) {
 
 Pamēģiniet nomainīt `skaitlis` uz 15 un palaist kodu. Tad tikai pirmais bloks tiks palaists, jo tā nosacījums būs patiess. Respektīvi, visi pārējie bloki tiks izlaisti.
 
+## Citi vērtību tipi
+
+
+Nosacījumos var lietot ne tikai skaitļus, bet arī tekstu un `patiess`/`nepatiess`. Bet ar šiem vērtību tipiem var lietot tikai `==` (vienāds ar) un `!=` (nav vienāds ar) salīdzinājuma zīmēm
+
+### Teksts
+
+```
+let mainigais = "Teksts"
+
+if(mainigais != "Teksts") {
+    console.log("Mainīgais nav vienāds ar 'teksts'")
+} else {
+    console.log("Mainīgais ir vienāds ar 'teksts'") // Šis kods tiks palaists
+}
+```
+
+### `patiess`/`nepatiess`
+
+Iespējams no iepriekšējās nodaļas par mainīgajiem, atceraties ka runājām nedaudz par vērtību tipu `boolean` jeb `patiess`/`nepatiess`. `boolean` tas ir vērtību tips, kurš var pastāvēt kā viena no divām vērtībām - vai nu `true`, jeb `patiess`, vai nu `false`, jeb nepatiess.
+
+```
+let mainigais = true
+let cits_mainigais = false
+```
+
+Šādu vērtību tipu arī var lietot nosacījumos.
+
+```
+if (mainigais == true) {
+    console.log('Mainīgais ir patiess')
+} else {
+    console.log('Mainīgais ir nepatiess')
+}
+```
+
 ## Aritmētika
 
 tāpat kā mainīgo definīcijā, arī nosacījumos drīkst lietot aritmētiku.
@@ -209,7 +245,120 @@ if (skaitlis < 20 un skaitlis > 10 vai skaitlis == 40)
 
 Var lietot gan `&&` gan `||` kopā, piemēram
 
+```
+let skailtis = 40
+
+if (skaitlis < 20 && skaitlis > 10 || skaitlis == 40) {
+    console.log('Skaitlis ir vai nu zemāks par 20 un augstāks par 10, vai nu tas ir vienāds ar 40') // Tiks palaists
+}
+```
 
 ## Noslēgums
 
-Šajā nodaļā
+Šajā nodaļā iemācijāmies par vēlvienu svarīgu programmēšanas aspektu - nosacījumiem un salīdzināšanu. Nosacījumi, tāpat kā mainīgie, ir ļoti svarīgs programmēšanas pamataspekts un tiek bieži ļoti bieži lietots kad raksta kodu.
+
+Nākošajā nodaļā mācīsimies par ievadi - varēsim uzrakstīt programmu kura veic noteiktas darbības atkarībā no lietotāja ievades
+
+
+## Jautājumi
+
+3.1: Vienkāršos vārdos, kas ir nosacījumi?
+
+A: Nosacījumi ir koda bloki, kuri tiek palaists atkarībā no tā vai kāda izteiksme ir patiesa vai nepatiesa
+
+3.2: Kāds teksts tiks izvadīts konsolē palaižot doto kodu?
+```
+let skaitlis = 10
+
+if(skaitlis == 15) {
+    console.log('1')
+} else {
+    console.log('2')
+}
+```
+
+A: 2
+
+3.3: Kāds teksts tiks izvadīts konsolē palaižot doto kodu?
+```
+let skaitlis = 16
+
+if(skaitlis > 20 && skaitlis < 15) {
+    console.log('1')
+} else {
+    console.log('2')
+}
+```
+
+A: 1
+
+3.4: Kāds teksts tiks izvadīts konsolē palaižot doto kodu?
+```
+let skaitlis = 20
+
+if(skaitlis == 15 || skailtis == 20) {
+    console.log('1')
+} else {
+    console.log('2')
+}
+```
+
+A: 1
+
+3.4: Kāds teksts tiks izvadīts konsolē palaižot doto kodu?
+```
+let skaitlis = 20
+
+if(skaitlis == 15) {
+    console.log('1')
+} else if (skaitlis == 20) {
+    console.log('2')
+} else {
+    console.log('3')
+}
+```
+
+A: 1
+
+3.5: Kāds teksts tiks izvadīts konsolē palaižot doto kodu?
+```
+let skaitlis = false
+
+if(skaitlis == true) {
+    console.log('1')
+} else {
+    console.log('2')
+}
+```
+
+A: 2
+
+## Uzdevumi
+
+3.1: Uzrakstiet programmu, kura definē mainīgo `abc` ar vērtību "Teksts", un tad ar nosacījumu pārbauda, vai mainīgā vērtība ir vienāda ar "Teksts", un izvada konsolē tekstu "1", ja nosacījumus ir patiess, un "2", ja nosacījums nav patiess.
+
+```
+let abc = "Teksts"
+
+if(abc == "Teksts") {
+    console.log('1')
+} else {
+    console.log('2')
+}
+```
+
+3.2: Uzrakstiet programmu, kura definē mainīgo ar jebkādu skaitlisko vērtību, un tad izvada tekstu atkarībā no šādiem nosacījumiem(kur X ir mainīgā vērtība):
+    1. Ja skaitlis ir lielāks par 20, izvada "Skaitlis X ir lielāks par 20"
+    2. Ja skaitlis ir mazāks par 20, izvada "Skaitlis X ir mazāks par 20"
+    3. Citādāk izvada "Skaitlis X ir vienāds ar 20"
+```
+let skaitlis = 15
+
+if (skaitlis > 20) {
+    console.log("Skaitlis " + skaitlis + " ir lielāks par 20")
+} else if (skaitlis < 20) {
+    console.log("Skaitlis " + skaitlis + " ir mazāks par 20")
+} else {
+    console.log("Skaitlis " + skaitlis + " ir vienāds ar 20")
+}
+```
