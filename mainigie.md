@@ -20,6 +20,7 @@ Izanalizēsim iepriekšējo koda rindiņu:
 
 nākošais seko teksts `mains_mainigais`, kas ir mainīgā nosaukums. To var nomainīt pret jebkādu citu tekstu, bet tam jāseko šādiem noteikumiem:
 
+ * nedrīkst būt vairāki mainīgie ar vienu un to pašu nosaukumu
  * nosaukumā drīkst būt burti un cipari, bet:
  * tajā nedrīkst būt atstarpēm, piemēram `mans mainigais`
  * tam jāsākas ar ar burtu, zemsvītru(_) vai dolāra zīmi($). Nekādu citu simbolu, piemēram ciparu vai '&' zīmi, nedrīkst lietot kā pirmo, piemēram `1mans_mainigais` vai `&mans_mainigais`
@@ -216,6 +217,22 @@ let pirmais_teksts = "Sveika "
 let otrs_teksts = "Pasaule!"
 console.log(pirmais_teksts + otrs_teksts) // Sveika Pasaule!
 ```
+
+Skaitliskus mainīgos var arī definēt kā negatīvus skaitļus:
+
+```
+let skaitlis = -10
+```
+
+## Kopsavilkums
+
+ * Mainīgie ir programmēšanas pamatvienība kas ļauj saglabāt vērtību, piemēram skaitli vai tekstu un vēlāk to izmantot citviet
+ * Mainīgo var **deklarēt**, jeb izveidot to
+ * Mainīgo var pēctam **definēt**, jeb pievienot tam vērtību
+ * Mainīo nosaukumi seko noteiktiem noteikumimem, kurus neievērojot programma nespēs darboties.
+ * Mainīgajiem pastāv vairāki vērtību tipi, kā skaitlis, teksts, `patiess`/`nepatiess`.
+ * Skaitliskiem mainīgajiem var pieletot aritmētiskas darbības kā saskaitīšanu, atņemšanu, reizināšanu, dalīšanu
+
 
 ## Noslēgums
 

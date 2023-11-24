@@ -179,6 +179,10 @@ Lai nostiprinātu jauniegūtas zināšanas, varat atbildēt uz jautājumiem un i
 
 Nākošajā nodaļā mācīsimies par programmēšanas pamatvienību - mainīgajiem.
 
+## Kļūdas
+
+Kļūdas jeb **errors** ir kad programma nespēj palaisties dēļ kļūdaina koda un kļūdas iemeslu programma izvada konsolē. Kļūdas ziņa jeb **error message** ir ziņa ko programma pati izvada konsolē, ziņojot par kļūdas iemeslu un vietu kodā kur tā notikusi. Kļūdas ziņas ir ļoti lietderīgas kad programmu 'debago', jeb attīra to no kļūdām, jo palīdz saprast kļūdas iemeslu un kur kodā tā tiek izraisīta
+
 ## Jautājumi
 
 1.1: Kas ir konsole jeb **console**?

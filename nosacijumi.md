@@ -253,6 +253,37 @@ if (skaitlis < 20 && skaitlis > 10 || skaitlis == 40) {
 }
 ```
 
+## Iestaprināšana
+
+Nosacījumus var ievietot vienu otrā. To sauc par **nesting** jeb **iestaprināšanu**
+
+```
+let skaitlis = 10;
+
+if(skailtis > 0) {
+    console.log('skaitlis ir pozitīvs un')
+    if(skaitlis > 50) {
+        console.log('tas ir lielāks par 50')
+    } else {
+        console.log('tas ir mazāks par 50')
+    }
+} else {
+    console.log('skaitlis ir negatīvs')
+}
+```
+
+Šajā kodā, mēs vispirms pārbaudam vai skaitlis ir lielāks par 0. Takā tas ir, tad mēs vēl pārbaudam vai tas ir lielāks par 50. Ja skaitlis būtu bijis mazāks par 0, tad šis nosacījums:
+
+```
+if(skaitlis > 50) {
+    //...
+} else {
+    //...
+}
+```
+
+Netiktu pat pārbaudīts.
+
 ## Noslēgums
 
 Šajā nodaļā iemācijāmies par vēlvienu svarīgu programmēšanas aspektu - nosacījumiem un salīdzināšanu. Nosacījumi, tāpat kā mainīgie, ir ļoti svarīgs programmēšanas pamataspekts un tiek bieži ļoti bieži lietots kad raksta kodu.

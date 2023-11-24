@@ -1,0 +1,15 @@
+# Satura rādītājs
+
+1. [Par autoru](./par_autoru.md)
+2. [Pateicības](./pateicibas.md)
+3. [Ievads](./ievads.md)
+4. [Pirmie Soļi](./pirmie_soli.md)
+5. [Mainīgie](./mainigie.md)
+6. [Nosacījumi](./nosacijumi.md)
+7. [Koda bloki](./koda_bloki.md)
+8. [Ievade](./ievade.md)
+9. [Funkcijas](./funkcijas.md)
+10. [Masīvi](./masivi.md)
+11. [Cikli](./cikli.md)
+12. [Objekti](./objekti.md)
+13. [Klases](./klases.md)
