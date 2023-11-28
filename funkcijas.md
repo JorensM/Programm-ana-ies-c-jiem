@@ -4,6 +4,8 @@ Lielās (un pat mazās) programmās bieži tiek lietots viens un tas pats kods. 
 
 Funkcijas ļauj programmētājam atkārtoti izmantot vienu un to pašu kodu, bez nepieciešamības to kopēt katrā vietā.
 
+Pie tam, funkcijas ļauj grupēt saistītu kodu, kas padara kodu lasāmāku.
+
 Iepriekš jau saskārāmies ar divām funkcijām - `console.log()` un `prompt()`
 
 Iedomāsimies, ka mums ir šāds kods:
@@ -304,9 +306,111 @@ console.log(jaunais_skaitlis)
 >```
 >Šajā gadījumā funkcijas `summa()` atdotā vērtība tiktu lietotā kā arguments funkcijai `console.log()`
 
+Funkcija var atdot vērtību tikai vienreiz, pēc kā tā pārstāj savu darbību.
+
+## Saglabāt kā mainīgo
+
+Funkciju ir iespējams saglabāt kā mainīgo. Šo parasti dara vidēja un augsta līmeņa programmētāji, bet iesācēji reti. Tomēr ir lietderīgi to zināt.
+
+```
+let saglabata_funkcija = function(argumenti) {
+    // Funkcijas darbība
+}
+```
+
+Tad šo mainīgo var izsaukt kā parastu funkciju:
+```
+saglabata_funkcija()
+```
+
+Izmantot funkciju kā mainīgo ir lietderīgi, jo šādā veidā funkciju var sniegt kā citas funkcijas argumentu
+
+```
+function cita_funckija(arguments) {
+    arguments()
+}
+
+cita_funckija(saglabata_funckija)
+```
+
 ## Kopsavilkums
 
  * Funkcijas ir veids kā atkārtoti izmantot vienu un to pašu kodu, nekopējot to
  * Funkcijas spēj saņemt vērtības jeb argumentus un atdot vērtību jeb **return value**
  * Funkcijas nosaukuma un argumentu nosaukumu veidošana seko tādiem pašiem noteikumiem kā mainīgo nosaukumu veidošana
  * Funkcijā drīkst būt vairāki argumenti
+
+## Jautājumi
+
+6.1: Kas ir funkcijas?
+
+A: Funkcijas tas ir veids kā atkārtoti lietot vienu un to pašu kodu, bez nepieciešamības to kopēt
+
+6.2: Ar ko ir lietderīgas funkcijas?
+
+A: Funkcijas ļauj atkārtoti lietot vienu un to pašu kodu, kā arī ļauj grupēt saistītu kodu, kas padara to lasāmāku
+
+6.3 Kas ir argumenti?
+
+A: Argumenti tas ir veids kā funkcijai sniegt papildus informāciju, kuru tā var izmantot savas darbības laikā
+
+6.4 Vai funkcijai var sniegt vairākus argumentus?
+
+A: Jā, tie jāatdala ar komatiem
+
+6.5 Kas ir atdotā vērtība?
+
+A: **Atdotā vērtība** jeb **return value** ir vērtība kuru funkcija spēj "atdot" kodam kurš to izsauca. Šo vērtību var saglabāt mainīgajā un lietot turpmākajā programmas izpildē
+
+6.6 Vai atdotajai vērtība ir lietderīga, ja to nesaglabā mainīgajā?
+
+A: Nē, ja to nesaglabā mainīgajā tad tā tiek "palaista vējā" un tai vairs nevar piekļūt
+
+6.7 Vai ir iespējams saglabāt funkciju kā mainīgo?
+
+A: Jā
+
+6.8 Ar ko ir lietderīgi saglabāt funkciju kā mainīgo?
+
+A: Šādā veidā funkciju var sniegt kā argumentu citai funkcijai.
+
+## Uzdevumi
+
+6.1: Uzrakstiet, funkciju, kura vairākkārt izvada konsolē tekstu "Čau!", tad izsauciet šo funkciju
+
+```
+function runat() {
+    console.log('Čau!')
+    console.log('Čau!')
+    console.log('Čau!')
+}
+
+runat()
+```
+
+6.2 Uzrakstiet funkciju `izvadit_starpibu`, kura ņem 2 skaitļus kā argumentus, un izvada tekstu "Skaitļu X un Y starpība ir ___" (kur X, Y ir argumentu vērtības, un __ ir šo vērtību starpība), tad izsauciet šo funkciju ar paša izvēlētiem skaitļiem kā argumentiem.
+
+```
+function izvadit_starpibu(skaitlis1, skaitlis2) {
+    let starpiba = skaitlis1 - skaitlis2
+    console.log('Skaitļu ' + skaitlis1 + ' un ' + skaitlis2 + ' starpība ir ' + starpiba)
+}
+
+izvadit_starpibu(40, 5)
+
+// Skaitļu 40 un 5 starpība ir 35
+```
+
+6.3 Uzrakstiet funkciju `salikt_vardus`, kura ņem 2 teksta argumentus un atdod vērtību, kura ir šo divu argumentu kombinācija. Izsauciet šo funkciju, saglabājiet atdoto vērtību un izvadiet to
+
+```
+function salikt_vardus(vards1, vards2){
+    return vards1 + vards2
+}
+
+let vardi = salikt_vardus('Sveika', 'Pasaule')
+
+console.log(vardi)
+
+// SveikaPasaule
+```

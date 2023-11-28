@@ -2,7 +2,7 @@
 
 ## Change all double quote string to single quote
 
-## Code style chapter
+## Code style chapter (spacing, indentation, line breaks, naming)
 
 ## Add console.log outputs in text format where possible (and remove console.log pictures except in the first chapters)
 
