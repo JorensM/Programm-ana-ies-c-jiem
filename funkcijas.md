@@ -414,3 +414,47 @@ console.log(vardi)
 
 // SveikaPasaule
 ```
+
+6.4 Uzrakstiet funkciju `ir_positivs`, kura ņem 1 skaitlisku argumentu un pārbauda, vai šis skaitlis ir pozitīvs vai negatīvs, tad izvada "Skaitlis X ir pozitīvs/negatīvs/nulle", respektīvi vai skaitlis ir pozitīvs, negatīvs vai nulle. kur X ir argumenta vērtība.
+
+```
+function ir_positivs(skaitlis) {
+    if(skaitlis > 0) {
+        console.log('Skaitlis ' + skaitlis + ' ir pozitīvs')
+    } else if (skaitlis < 0) {
+        console.log('Skaitlis ' + skaitlis + ' ir negatīvs')
+    } else {
+        console.log('Skaitlis ' + skaitlis + ' ir nulle')
+    }
+}
+
+ir_positivs(5)
+ir_positivs(-20)
+ir_positivs(0)
+
+// Skaillis 5 ir pozitīvs
+// Skaitlis -20 ir negatīvs
+// Skaitlis 0 ir nulle
+```
+
+6.5: Uzrakstiet funkciju `salidzinat_vertibas`, kura ņem 2 skaitliskus argumentus, un salīdzina šīs vērtības, izvadot "Skaitlis X ir lielāks/mazāks/vienāds par/ar Y" respektīvi. Kur X ir pirmais arguments, un Y ir otrs arguments
+
+```
+function salidzinat_vertibas(x, y) {
+    if(x > y) {
+        console.log('Skaitlis ' + x + ' ir lielāks par ' + y)
+    } else if(x < y) {
+        console.log('Skaitlis ' + x + ' ir mazāks par ' + y)
+    } else {
+        console.log('Skaitlis ' + x + ' ir vienāds ar ' + y)
+    }
+}
+
+salidzinat_vertibas(10, 15)
+salidzinat_vertibas(5, 5)
+salidzinat_vertibas(-10, 20)
+
+// Skaitlis 10 ir lielāks par 15
+// Skaitlis 5 ir vienāds ar 5
+// Skaitlis -10 ir mazāks par 20
+```

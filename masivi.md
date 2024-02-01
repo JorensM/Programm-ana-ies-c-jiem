@@ -101,3 +101,23 @@ izvadit_masivu(mans_masivs)
 // 10
 ```
 
+7.3: Izveidojiet funkciju `salidzinat_vertibas`, kura ņem masīvu kā argumentu, un salīdzina šī masīva pirmos 2 elementus, izvadot "Skaitlis X ir lielāks/mazāks/vienāds par/ar Y" respektīvi. Kur X ir pirmais masīva elements, un Y ir otrs masīva elements
+
+```
+function salidzinat_vertibas(masivs) {
+    let x = masivs[0] // Saglabājam vērtības mainīgajos lai nav jāraksta masivs[0] katru reizi
+    let y = masivs[1]
+    if(x > y) {
+        console.log('Skaitlis ' + x + ' ir lielāks par ' + y)
+    } else if(x < y) {
+        console.log('Skaitlis ' + x + ' ir mazāks par ' + y)
+    } else {
+        console.log('Skaitlis ' + x + ' ir vienāds ar ' + y)
+    }
+}
+
+let masivs = [10, 20]
+
+salidzinat_vertibas(masivs)
+```
+

@@ -1,5 +1,11 @@
 # TODO
 
+## Add 'constants' section to 'variables' chapter and replace 'let' with 'const' where appropriate
+
+## Write code for 'Ievade' tasks
+
+## Make better tasks. Make them so that they build on previous chapters
+
 ## Change all double quote string to single quote
 
 ## Code style chapter (spacing, indentation, line breaks, naming)
