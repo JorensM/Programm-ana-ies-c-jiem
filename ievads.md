@@ -14,14 +14,14 @@ Ja jūs lasāt šo grāmatu, tad jums jau drošivien ir kautkāda nojausma par t
 
 ## Vai ir vērts mācīties programmēšanu?
 
-Iespējams, jau esat sev jautājis - "Vai ir vērts mācīties programmēšanu?". No personālās izaugsmes un interešu skatapunkta, programmēšanu ir vērts mācīties ja jūs tā aizrauj un jums patīk ar to nodarboties, ko jūs varat noskaidrot, palasot dažas šīs grāmatas nodaļas. No profesionālā skatapunkta(t.i ja jūs vēlaties atrast darbu šajā jomā), programmēšanu ir noteikti vērts apgūt, jo darba izaugsmes iespējas ir plašas un peļņa salīdzinoši augsta. Pietam, ar programmēšanu jums ir iespēja ne tikai strādāt algotu darbu, bet izstrādām pašiem savu programmatūru, kuru pēc tam varat izplatīt un pārdot.
+Iespējams, jau esat sev jautājis - "Vai ir vērts mācīties programmēšanu?". No personālās izaugsmes un interešu skatapunkta, programmēšanu ir vērts mācīties ja jūs tā aizrauj un jums patīk ar to nodarboties, ko jūs varat noskaidrot, palasot dažas šīs grāmatas nodaļas. No profesionālā skatapunkta(t.i ja jūs vēlaties atrast darbu šajā jomā), būšu godīgs - šobrīd (2024. gads), juniora līmeņa programmētājiem ir diezgan grūti atrast darbu, daudz vieglāk ir atrast tiem, kuriem jau ir pieredze. Bet ar programmēšanu jums ir iespēja ne tikai strādāt algotu darbu, bet izstrādām pašiem savu programmatūru, kuru pēc tam varat izplatīt un pārdot.
 
 ## Programmēšanas valodas
 
 Rakstīt programmas var dažādās **programmēšanas valodās**. Katrai programmēšanas valodai ir savi knifi un niances, bet vairāk vai mazāk tās ir vienādas - kad esat apguvis vienu valodu, apgūt turpmākās būs daudz vieglāk. 
 
-Ir bezgala daudz dažādu valodu, dažas no populārākajām ir - JavaScript, PHP, Java, C++, Python, Go. Šajā grāmatā mēs apgūsim JavaScript, kura pēc mana viedokļa ir labi piemērota iesācējiem.
+Ir bezgala daudz dažādu valodu, dažas no populārākajām ir - JavaScript, PHP, Java, C++, Python, Go. Šajā grāmatā mēs apgūsim JavaScript, kura pēc mana viedokļa ir labi piemērota iesācējiem, kuri vēlas ātri sākt, bez lielas nepieciešamības sagatavoties. Ar citām valodām, piemēram PHP vai C++, vispirms būtu jāuzstāda īpaša programmatūras kuras spēj lasīt un izpildīt šo valodu kodu, bet ar JavaScript ir daudz vienkāršāk, jo to tai ir nepeciešams tikai pārlūks un tekstapstrādes programma, kuri jums visticamāk jau ir uzstādīti. 
 
-Katra valoda ir vairāk vai mazāk piemērota noteiktiem mērķiem, piemēram Java tiek bieži lietota mobilo aplikāciju izstrādei, C++ tiek lietota tādas programmatūras izstrādei, kur ir svarīga ātra datu apstrāde(piem. datorspēles). PHP tiek lietota serveru programmatūras izstrādei. JavaScript ir hibrīdvaloda kura tiek lietota daudz dažādos veidos, vispopulārākie būdami mājaslapu izstrādei un serveru programmatūras izstrādei.
+Katra valoda ir vairāk vai mazāk piemērota noteiktiem mērķiem, piemēram Java tiek bieži lietota mobilo aplikāciju izstrādei, C++ tiek lietota tādas programmatūras izstrādei, kur ir svarīga ātra datu apstrāde(piem. datorspēles). PHP tiek lietota serveru programmatūras izstrādei. JavaScript ir hibrīdvaloda kura tiek lietota daudz dažādos veidos, vispopulārākie būdami mājaslapu izstrādei un serveru programmatūras izstrādei. Bet vērts zināt, ka jebkuru valodu teoretiski var izmantot jebkādā veidā, kautgan katra ir vairāk vai mazāk piemērota noteiktiem gadījumiem.
 
 Tagad kad jūs zinat nedaudz par to, kas ir programmēšana, varam ķerties pie darba!
